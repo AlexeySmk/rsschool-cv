@@ -14,6 +14,8 @@
     <dd><strong>Specialty: </strong><em>Software engineer</em></dd>
     <dd><strong>Additional information: </strong><em>I am taking RS School courses now.</em></dd>
    
+   <dt>Languages</dt>
+    <dd>Russian, English</dd>
    
   <dt>About</dt>
     <dd>My name is Alexey. I'am 19. I was born in Belarus and live here now. I like programming. My interests is Front-End web development.</dd>
