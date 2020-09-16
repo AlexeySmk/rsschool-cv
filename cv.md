@@ -15,9 +15,16 @@
     <dd><strong>Additional information: </strong><em>I am taking RS School courses now.</em></dd>
    
    <dt>Languages</dt>
-    <dd>Russian, English</dd>
+    <dd>Russian, English(<strong>A2+</strong>)</dd>
+   
+   <dt>Skills</dt>
+    <dd>• HTML Basics</dd>
+    <dd>• CSS Basics</dd>
+    <dd>• JavaScript Basics</dd>
+    <dd>• Git Basics</dd>
    
   <dt>About</dt>
     <dd>My name is Alexey. I'am 19. I was born in Belarus and live here now. I like programming. My interests is Front-End web development.</dd>
+    
     
 </dl>
