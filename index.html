@@ -1,0 +1,395 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <style>
+        body {
+
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        .header {
+
+            width: 66.52%;
+            /* height: 20px; */
+            /* background-color: blue; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+
+        }
+
+        .header,
+        main {
+
+            border-left: 1px solid grey;
+            border-right: 1px solid grey;
+
+        }
+
+        .header-name {
+
+            font-family: "Rubik";
+            color: #3176E0;
+            margin: 0;
+            padding: 0;
+
+        }
+
+
+        .header-specialty {
+
+            color: #6d6d6d;
+            margin-top: 0;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-family: "Rubik";
+
+        }
+
+
+        .header-text {
+
+            width: 79%;
+            max-width: 600px;
+            color: #838282;
+            font-family: "Rubik";
+            font-size: 13px;
+        }
+
+        main {
+
+            width: 66.52%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* background-color: black; */
+
+        }
+
+        main {
+
+            width: 66.52%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* background-color: black; */
+
+        }
+
+
+        section {
+
+            /* width: 49%; */
+            /* background-color: lightblue; */
+            height: 1000px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+
+        }
+
+        main section:nth-child(1) {
+
+            width: 40%;
+            /* background-color: red; */
+
+        }
+
+        main section:nth-child(2) {
+
+            width: 60%;
+            /* background-color: green; */
+            align-items: flex-start;
+        }
+
+
+        .contacts {
+
+            width: 80%;
+            /* height: 500px; */
+            /* background-color: red; */
+            font-family: "Rubik";
+            margin-top: 40px;
+            margin-bottom: 35px;
+
+        }
+
+        h2 {
+
+            font-size: 20px;
+
+        }
+
+        h4 {
+
+            margin-bottom: 5px;
+
+        }
+
+        .contact-info p {
+
+            color: #838282;
+            font-size: 13px;
+            margin: 0;
+
+        }
+
+        .languages {
+
+            width: 80%;
+            font-family: "Rubik";
+            /* background-color: red; */
+            margin-bottom: 35px;
+
+        }
+
+        .skills {
+
+            width: 80%;
+            font-family: "Rubik";
+
+        }
+
+        .skill-list {
+
+            padding-left: 15px;
+            color: #838282;
+
+        }
+
+        .skill-list li {
+
+            margin-bottom: 20px;
+
+        }
+
+        .experience,
+        .education {
+
+            width: 90%;
+            /* height: 500px; */
+            margin-top: 30px;
+            /* background-color: lightgreen; */
+            font-family: "Rubik"
+
+        }
+
+        .header-experience,
+        .header-education {
+
+            display: inline-block;
+            border-left: 2px solid#3176E0;
+            padding: 1px 0 1px 7px;
+            font-size: 14px;
+            margin-bottom: 15px;
+
+        }
+
+        .experience-text,
+        .education-additional {
+
+            margin: 0;
+            margin-left: 9px;
+            margin-bottom: 30px;
+            font-size: 12px;
+            color: #838282;
+
+        }
+
+        .education-text {
+
+            font-size: 12px;
+            font-weight: bold;
+            color: #808080;
+            margin-top: -3px;
+            margin-bottom: 5px;
+            line-height: 16px;
+        }
+
+        .education-specialty {
+
+            color: #6d6d6d;
+            margin: 0;
+
+        }
+
+        .education-specialty,
+        .education-course,
+        .education-text {
+
+            margin-left: 3px;
+
+        }
+
+        .education-course {
+
+            font-weight: initial;
+            color: #838282;
+            font-size: 12px;
+
+        }
+
+        .education-additional {
+
+            margin-top: 20px;
+
+        }
+
+        .additional-info {
+
+            font-size: 12px;
+            font-weight: bold;
+            color: #808080;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <h1 class="header-name">Alexey Sambuk</h1>
+        <p class="header-specialty">Front-End Developer</p>
+        <p class="header-text">My name is Alexey. I'am 19. I was born in Belarus and live here now. I like programming.
+            My interests is Front-End web development.</p>
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <article class="contacts">
+
+                <h2>Contact Information</h2>
+                <hr>
+                <div class="contact-info">
+                    <h4>Phone</h4>
+                    <p>+375447120205</p>
+
+
+                </div>
+
+                <div class="contact-info">
+                    <h4>Email</h4>
+                    <p>temp.mail.93@list.ru</p>
+
+
+                </div>
+
+                <div class="contact-info">
+                    <h4>Address</h4>
+                    <p>Belarus, Homel</p>
+
+
+                </div>
+
+                <div class="contact-info">
+                    <h4>Date of Birth</h4>
+                    <p>03.10.2000</p>
+
+
+                </div>
+
+                <div class="contact-info">
+                    <h4>Nationality</h4>
+                    <p>Belarusian</p>
+
+
+                </div>
+
+
+
+
+            </article>
+
+
+            <article class="languages">
+
+                <h2>Languages</h2>
+                <hr>
+                <div class="contact-info">
+                    <h4>Russian</h4>
+                    <p>Native speaker</p>
+
+
+                </div>
+
+                <div class="contact-info">
+                    <h4>English</h4>
+                    <p>B1</p>
+
+
+                </div>
+
+            </article>
+
+
+            <article class="skills">
+
+                <h2>Skills</h2>
+                <hr>
+                <div class="contact-info">
+
+                    <ul class="skill-list">
+                        <li>HTML Basics</li>
+                        <li>CSS Basics</li>
+                        <li>JavaScript Basics</li>
+                        <li>Git Basics</li>
+                    </ul>
+
+                </div>
+
+
+            </article>
+
+        </section>
+
+        <section>
+
+            <article class="experience">
+
+                <span class="header-experience">Experience</span>
+
+                <p class="experience-text">I have no experience yet, but I'am learning!</p>
+                <hr>
+
+            </article>
+
+            <article class="education">
+
+                <span class="header-education">Education</span>
+
+                <h2 class="education-specialty">Software engineer</h2>
+                <p class="education-text">Moscow Witte University</p>
+                <span class="education-course">Course 3</span>
+                <p class="education-additional"><span class="additional-info">Additional information: </span>I am taking
+                    RS School courses now.</p>
+                <hr>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
